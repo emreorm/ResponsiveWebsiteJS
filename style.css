@@ -1,0 +1,120 @@
+/* ! Resetleme işlemleri */
+.body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+
+
+/* !Navbar Start */
+.fa-google-plus-g{
+    margin-right: 70px;
+}
+
+.numara{
+    margin-right: 30px;
+}
+.navIcons{
+    cursor: pointer;
+}
+
+.eurodollar{
+    width: 100px;
+}
+.mostTop{
+    background-color: rgb(240, 240, 232);
+}
+.loginUl{
+    margin-right: 50px;
+}
+header{
+    height: auto;
+}
+.curser{
+    cursor: pointer;
+}
+.line{
+    border: 1px solid grey;
+    margin-left: 30px;
+    margin-right: 70px;
+    
+}
+.renk{
+    background-color: rgb(240, 240, 232);
+    
+}
+.spanS{
+    background-color: rgb(240, 240, 232);
+}
+
+/* !Section Css */
+.line2 {
+    display: flex;
+    align-items: center;
+}
+
+.line2 hr {
+     flex-grow: 1; /* Bir öğeyi diğerlerine göre daha büyük göstermek için bu özelliği kullanıyoruz. */
+    height: 2px;
+    background-color: #000; 
+    margin: 0 20px; 
+}
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important; /* accordionun sonundaki simgeyi gizlemek için kullandım */
+ }
+ .accordion-button:focus{
+    background-color: white;
+ }
+ .accordionIcon{
+    position: absolute;
+    right: 15px; 
+ }
+ /* .karosel{
+    
+  width: 500px;
+    
+ } */
+ .karosel img{
+    width: 300px;
+    height: 500px;
+ }
+ .karoselButonu{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    
+ }
+ .ilkSection{
+    height: auto;
+ }
+
+ /* Karouselin yanlarındaki slide simgelerini siyah yapmak için */
+.carousel-control-next,
+.carousel-control-prev  {
+    filter: invert(100%);
+    margin: -150px; /* Slide simgelerinin konumu için*/
+}
+
+
+/* ! Footer Start */
+footer{
+    padding: 50px;
+}
+.enAlt{
+    background-color: rgb(157, 172, 167);
+}
+
+/* ! Login */
+.yuvarlak{
+    border-radius: 50% !important;
+    width: 60px;
+    height: 60px;
+}
